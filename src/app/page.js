@@ -28,6 +28,7 @@ const Index = () => {
         <Services />
         <Client />
         <Testimonial/>
+        <Subscribe/>
         <Footer />
       </main>
       <Scrolltop />
