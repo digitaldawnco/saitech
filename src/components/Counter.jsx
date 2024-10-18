@@ -11,23 +11,23 @@ const CounterData = {
   CounterList: [
     {
       icon: icon1,
-      number: "653",
+      number: "300",
       title: "Project Done",
     },
     {
       icon: icon2,
-      number: "465",
+      number: "200",
       title: "Trusted Users",
     },
     {
       icon: icon3,
-      number: "784",
-      title: "Projects Done",
+      number: "45",
+      title: "Innovation Idea",
     },
     {
       icon: icon4,
-      number: "123",
-      title: "Coffe Cup",
+      number: "99",
+      title: "Security Enhancements",
     },
   ],
 };

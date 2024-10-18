@@ -27,6 +27,7 @@ const Index = () => {
         <Counter />
         <Services />
         <Client />
+        <Testimonial/>
         <Footer />
       </main>
       <Scrolltop />

@@ -11,24 +11,24 @@ const TestimonialData = {
   title2: "CLIENT’S SAY",
   TesstimonialList: [
     {
-      title: "Daniel Wells",
-      desig: "DEVELOPER",
+      title: "Ishan Mohan",
+      desig: "CEO",
       brief:
-        "dummy text of the printing and type setting and industry. Lorem Ipsum has been the industry's",
+      "Saitech Studio has been an invaluable asset to our company. Their team's creativity and technical expertise have helped us elevate our brand and reach a wider audience. They consistently exceeded our expectations and delivered projects on time and within budget.",
       img: img1,
     },
     {
       title: "Morgan Liu",
       desig: "EXPERT",
       brief:
-        "dummy text of the printing and type setting and industry. Lorem Ipsum has been the industry's",
+      "Working with Saitech Studio was a seamless experience. Their designers and developers are highly skilled and always willing to go the extra mile. They took the time to understand our unique needs and provided tailored solutions that perfectly aligned with our goals.",
       img: img2,
     },
     {
       title: "Daniel Wells",
       desig: "DEVELOPER",
       brief:
-        "dummy text of the printing and type setting and industry. Lorem Ipsum has been the industry's",
+      "I was initially hesitant about outsourcing our web development, but Saitech Studio quickly changed my mind. Their communication was excellent, and they kept me informed throughout the entire process. The end result was a stunning website that has generated significant traffic and leads.",
       img: img1,
     },
   ],

@@ -8,6 +8,8 @@ import logo1 from "../../public/img/client/client-1.png";
 import logo2 from "../../public/img/client/client-2.png";
 import logo3 from "../../public/img/client/client-3.png";
 import logo4 from "../../public/img/client/client-4.png";
+import logo5 from "../../public/img/client/client-5.png";
+
 
 const ClientData = {
   ClientList: [
@@ -28,7 +30,7 @@ const ClientData = {
       link: "#",
     },
     {
-      img: logo2,
+      img: logo5,
       link: "#",
     },
   ],
@@ -36,7 +38,7 @@ const ClientData = {
 const Client = () => {
   return (
     <>
-      <div id="merox-client-slider" className="merox-client-slider py-[70px]">
+      <div id="merox-client-slider" className="merox-client-slider py-[30px]">
         <div className="container">
           <div className="flex flex-wrap mx-[-12px]">
             <div className="xl:w-10/12 lg:w-10/12 md:w-full sm:w-full xsm:w-full mx-auto flex-[0_0_auto]">
@@ -61,16 +63,16 @@ const Client = () => {
                 autoplay={true}
                 allowTouchMove={true}
                 loop={true}
-                speed={1000}
+                speed={500}
               >
                 {ClientData.ClientList.map((item, i) => (
                   <SwiperSlide key={i}>
                     <Link href={item.link}>
-                      <div className="single-client py-0 px-[30px]">
+                      <div className="single-client py-[52px] px-[52px]">
                         <Image
                           src={item.img}
                           alt="client-img"
-                          className="img-fluid"
+                          className="img-fluid h-32"
                         />
                       </div>
                     </Link>

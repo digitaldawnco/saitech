@@ -9,7 +9,7 @@ const FooterData = {
     '© all right reserved by <a class="text-[#ff2782] font-bold" href="#">SAITECH STUDIO</a>',
   logo: logo,
   brief:
-    "",
+    "Choose SAITECH STUDIO and experience the power of innovative technologies, enhanced productivity, and optimized costs.",
   SocialList: [
     {
       icon: "facebook",
@@ -101,7 +101,7 @@ const Footer = () => {
           <div className="container">
             <div className="flex flex-wrap mx-[-12px] justify-between">
               <div className="xl:w-3/12 lg:w-3/12 md:w-6/12 sm:w-full xsm:w-full px-[12px] flex-[0_0_auto]">
-                {/* <div className="footer-single-wedget mb-[30px]">
+                <div className="footer-single-wedget mb-[30px]">
                   <div className="custom-html-widget">
                     <div className="footer-logo mb-[43px]">
                       <Link href="#">
@@ -129,7 +129,7 @@ const Footer = () => {
                       ))}
                     </ul>
                   </div>
-                </div> */}
+                </div>
               </div>
               {/* <div className="xl:w-3/12 lg:w-3/12 md:w-6/12 sm:w-full xsm:w-full px-[12px] flex-[0_0_auto]">
                 <div className="footer-single-wedget mb-[30px]">
