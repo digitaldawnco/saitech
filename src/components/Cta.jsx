@@ -17,7 +17,7 @@ const Cta = () => {
       <div
         id="merox-cta-area"
         className="merox-cta-area py-[100px] text-center bg-center bg-cover relative h-full bg-[#1a2b3c] bg-no-repeat before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#2018d8] before:opacity-[0.6]"
-        style={{ backgroundImage: `url(${CtaData.bgimg.src})` }}
+        style={{ backgroundColor: `rgb(224 231 255)` }}
       >
         <div className="container relative text-center">
           <div className="flex flex-wrap mx-[-12px]">

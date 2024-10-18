@@ -27,6 +27,7 @@ const Index = () => {
         <Counter />
         <Services />
         <Client />
+        <Cta/>
         <Testimonial/>
         <Subscribe/>
         <Footer />
