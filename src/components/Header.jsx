@@ -76,14 +76,14 @@ const Header = () => {
     <>
       <header>
         <div
-          className={`header-area absolute left-0 right-0 top-0 z-10 border-b-[1px] border-solid border-[#cacaca] transition-all duration-[0.3s] ${
+          className={`header-area absolute left-0 right-0 top-0 z-10  border-solid border-[#cacaca] transition-all duration-[0.3s] ${
             sticky ? "header-fixed animated slideInDown" : ""
           }`}
         >
           <div className="container">
             <div className="flex flex-wrap mx-[-12px] relative">
               <div className="xl:w-2/12 lg:w-2/12 md:w-3/12 sm:w-3/12 xsm:w-3/12 px-[12px] flex-[0_0_auto]">
-                <div className="header-logo py-5 xl:border-r-[1px] lg:border-r-[1px] md:border-r-[1px] sm:border-r-0 border-solid border-[#cacaca]">
+                <div className="header-logo py-5 lg:border-r-[1px] md:border-r-[1px] sm:border-r-0 border-solid border-[#cacaca]">
                   <Link className="block" href="/">
                     <Image
                       src={HeaderData.logo}

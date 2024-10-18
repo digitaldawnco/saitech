@@ -58,12 +58,12 @@ const Hero = () => {
             },
           }}
           autoplay={true}
-          allowTouchMove={true}
+          allowTouchMove={false}
           loop={true}
-          pagination={{
-            clickable: true,
-          }}
-          speed={1000}
+          // pagination={{
+          //   clickable: true,
+          // }}
+          speed={3000}
         >
           {HeroDataa.HeroList.map((item, i) => (
             <SwiperSlide key={i}>
