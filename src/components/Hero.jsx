@@ -59,7 +59,7 @@ const Hero = () => {
           }}
           autoplay={true}
           allowTouchMove={false}
-          loop={true}
+          // loop={true}
           // pagination={{
           //   clickable: true,
           // }}
@@ -80,15 +80,15 @@ const Hero = () => {
                     <div className="container">
                       <div className="flex flex-wrap mx-[-12px]">
                         <div className="xl:w-8/12 lg:w-10/12 md:w-full sm:w-full xsm:w-full px-[12px] flex-[0_0_auto]">
-                          <div className="merox-slider-area-content mt-[87px]">
-                            <h4 className="text-white capitalize bg-[#ff2782] inline-block py-5 pr-[18px] pl-10 font-bold text-[24px] rounded-md ">
+                          <div className="merox-slider-area-content mt-[0px]">
+                            <h4 className="text-white capitalize bg-[#ff2782] inline-block py-5 pr-[18px] pl-10 font-bold text-[18px] rounded-md ">
                               {item.title}
                             </h4>
                             <h2
-                              className="text-[58px] text-white capitalize font-bold mb-5 opacity-0 -translate-x-[100px] transition-all duration-[500ms] ease-linear md:text-[50px] sm:text-[45px]"
+                              className="text-[34px] text-white capitalize font-bold mb-5 opacity-0 -translate-x-[100px] transition-all duration-[500ms] ease-linear md:text-[34px] sm:text-[24px]"
                               dangerouslySetInnerHTML={{ __html: item.title2 }}
                             ></h2>
-                            <p className="text-white text-[23px] mb-[30px] leading-[1.8] opacity-0 -translate-y-[100px] transition-all duration-[500ms] ease-linear">
+                            <p className="text-white text-[18px] mb-[30px] leading-[1.8] opacity-0 -translate-y-[100px] transition-all duration-[500ms] ease-linear">
                               {item.brief}
                             </p>
                             <div className="slider-area-btn">
